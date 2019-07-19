@@ -1,0 +1,219 @@
+.footer {
+    background-color: $maincolor;
+    position: relative;
+
+    padding-top: 80px;
+
+    @media(max-width: 767px) {
+        margin-right: 0;
+        padding-top: 30px;
+        width: 100%;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/foot1.jpg);
+        background-repeat: no-repeat;
+        z-index: 5;
+        background-position-x: center;
+        background-attachment: scroll;
+        z-index: 5;
+
+        @media(max-width: 767px) {
+            background-repeat: no-repeat;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+
+        a {
+            font-size: 24px;
+            color: #fff;
+            margin-left: 25px;
+            z-index: 10;
+            @include transition(all 0.3s ease-in-out);
+
+            &:last-child {
+                margin-left: 0;
+            }
+
+            &:hover {
+                color: #f9c945;
+            }
+        }
+
+        @media(max-width: 767px) {
+            margin-bottom: 25px;
+        }
+    }
+
+    .links {
+        z-index: 10;
+    }
+
+    .linksheading {
+        display: none;
+        @extend %sliderh1;
+        color: #fff;
+        z-index: 10;
+
+        @media(max-width: 767px) {
+            display: block;
+
+        }
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        margin: 0;
+        margin-top: 50px;
+        border-bottom: 1px solid #1a1a1a;
+        padding-bottom: 65px;
+
+        @media(max-width: 767px) {
+            flex-direction: column;
+            margin-top: 0;
+            padding-bottom: 15px;
+        }
+    }
+
+    .link-li {
+        margin-left: 25px;
+        z-index: 10;
+
+        &:last-child {
+            margin-left: 0;
+        }
+
+        @media(max-width: 767px) {
+            margin-left: 0;
+            margin-bottom: 12px;
+        }
+    }
+
+    .link {
+        font-size: 15px;
+        color: #8b8b8b;
+        z-index: 10;
+        @include transition(all 0.3s ease-in-out);
+
+        &:hover {
+            color: #f9c945;
+        }
+
+        @media(max-width: 767px) {
+            color: #fff;
+        }
+    }
+}
+
+html[dir="ltr"] .footer {
+    margin-right: 0;
+    margin-left: -12.5%;
+
+    @media(max-width: 767px) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .social {
+        a {
+            margin-left: 0;
+            margin-right: 25px;
+
+            &:last-child {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .links {
+        z-index: 10;
+    }
+
+    .link-li {
+        margin-left: 0;
+        margin-right: 25px;
+
+        &:last-child {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        @media(max-width: 767px) {
+            margin-right: 0;
+        }
+    }
+
+
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 51px;
+    z-index: 10;
+
+    @media(max-width: 767px) {
+        flex-direction: column;
+        margin: 15px 0 0;
+    }
+
+    .copyrights {
+        z-index: 10;
+        color: #8a8a8a;
+        font-size: 13px;
+
+        img {
+            margin-right: 6px;
+            @include transition(all 0.3s ease-in-out);
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
+
+        @media(max-width: 767px) {
+            order: 2;
+            margin: 15px 0;
+            line-height: 2;
+
+            .tasawk {
+                display: block;
+            }
+        }
+    }
+
+    .payments {
+        z-index: 10;
+
+        @media(max-width: 767px) {
+            order: 1
+        }
+    }
+}
+
+html[dir="ltr"] .copy {
+    .copyrights {
+        img {
+            margin-left: 6px;
+            margin-right: 0;
+        }
+    }
+
+}
