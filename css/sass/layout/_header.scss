@@ -173,7 +173,7 @@ html[dir="ltr"] .menu {
             @include transition(all 0.3s ease-in-out);
 
             @media(max-width: 767px) {
-                margin-left: 10px;
+                margin-left: 20px;
             }
         }
 
@@ -256,7 +256,7 @@ html[dir="ltr"] .user-bar {
             margin-right: 6px;
 
             @media(max-width: 767px) {
-                margin-right: 10px;
+                margin-right: 20px;
                 margin-left: 0;
             }
         }
@@ -287,7 +287,7 @@ html[dir="ltr"] .user-bar {
 
     .search-btn {
         display: none;
-        margin: 0 15px;
+        margin: 0 25px;
 
         i {
             font-size: 20px;
