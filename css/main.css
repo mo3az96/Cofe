@@ -312,7 +312,7 @@ html[dir=ltr] .menu div.search-btn i {
 }
 @media (max-width: 767px) {
   .user-bar .sign i {
-    margin-left: 20px;
+    margin-left: 25px;
   }
 }
 .user-bar .sign a {
@@ -384,7 +384,7 @@ html[dir=ltr] .user-bar .sign i {
 }
 @media (max-width: 767px) {
   html[dir=ltr] .user-bar .sign i {
-    margin-right: 20px;
+    margin-right: 25px;
     margin-left: 0;
   }
 }
@@ -410,7 +410,7 @@ html[dir=ltr] .user-bar .cart {
 }
 .xs-icon .search-btn {
   display: none;
-  margin: 0 25px;
+  margin: 0 30px;
 }
 .xs-icon .search-btn i {
   font-size: 20px;
