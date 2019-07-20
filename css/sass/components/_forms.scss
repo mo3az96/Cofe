@@ -81,7 +81,7 @@
         color: #777;
         top: 50px;
         left: 50%;
-        transform: rotateX(-50%);
+        transform: translateX(-50%);
         font-size: 30px;
         cursor: pointer;
         @include transition(all 0.7s ease-in-out);

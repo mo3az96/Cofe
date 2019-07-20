@@ -80,9 +80,17 @@ html[dir="ltr"] .outscreen {
 .mar {
     margin-right: 20px;
 
+    @media(max-width: 767px) {
+        margin-right: 0;
+    }
+
 }
 
 html[dir="ltr"] .mar {
     margin-right: 0;
     margin-left: 20px;
+
+    @media(max-width: 767px) {
+        margin-left: 0;
+    }
 }

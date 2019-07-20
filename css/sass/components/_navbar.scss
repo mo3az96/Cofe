@@ -75,3 +75,20 @@
         margin-right: 30px;
     }
 }
+
+html[dir="ltr"] .main-side-nav {
+    .closebtn {
+        left: auto;
+        margin-left: 0;
+        right: 0px;
+        margin-right: 30px;
+
+    }
+
+    .menu-lang {
+        right: auto;
+        margin-right: 0;
+        left: 0px;
+        margin-left: 30px;
+    }
+}
