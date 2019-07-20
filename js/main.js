@@ -46,7 +46,6 @@ $(document).ready(function () {
     $('.main-slider').owlCarousel({
         items: 1,
         autoplay: false,
-        margin: 5,
         rtl: true,
         loop: true,
         nav: false,

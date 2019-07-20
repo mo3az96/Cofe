@@ -121,13 +121,6 @@
 }
 
 html[dir="ltr"] .footer {
-    margin-right: 0;
-    margin-left: -12.5%;
-
-    @media(max-width: 767px) {
-        margin-right: 0;
-        margin-left: 0;
-    }
 
     .social {
         a {

@@ -1,9 +1,7 @@
 .header {
 
     margin-top: 17px;
-    z-index: 999;
-    position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 
 
     .txt {
@@ -173,6 +171,10 @@ html[dir="ltr"] .menu {
             margin-left: 6px;
             color: $maincolor;
             @include transition(all 0.3s ease-in-out);
+
+            @media(max-width: 767px) {
+                margin-left: 10px;
+            }
         }
 
         a {
@@ -252,6 +254,11 @@ html[dir="ltr"] .user-bar {
         i {
             margin-left: 0;
             margin-right: 6px;
+
+            @media(max-width: 767px) {
+                margin-right: 10px;
+                margin-left: 0;
+            }
         }
     }
 
@@ -280,7 +287,7 @@ html[dir="ltr"] .user-bar {
 
     .search-btn {
         display: none;
-        margin: 0 11px;
+        margin: 0 15px;
 
         i {
             font-size: 20px;
